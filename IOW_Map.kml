@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<NetworkLink>
+	<name>IOW/Map</name>
+	<open>1</open>
+	<LookAt>
+		<longitude>-1.327837781899049</longitude>
+		<latitude>50.67030485424314</latitude>
+		<altitude>0</altitude>
+		<heading>0</heading>
+		<tilt>0</tilt>
+		<range>37431.95390785101</range>
+	</LookAt>
+	<Region>
+		<LatLonAltBox>
+			<north>90</north>
+			<south>-90</south>
+			<east>180</east>
+			<west>-180</west>
+			<minAltitude>0</minAltitude>
+			<maxAltitude>0</maxAltitude>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>128</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+			<minFadeExtent>0</minFadeExtent>
+			<maxFadeExtent>0</maxFadeExtent>
+		</Lod>
+		<LatLonBox>
+<north>50.76836431257683</north>
+<south>50.57251613671999</south>
+<east>-1.0667305854399678</east>
+<west>-1.5894879770667092</west>
+</LatLonBox>
+	</Region>
+	<Link>
+		<href>https://50cr008.sims.cranfield.ac.uk:6443/arcgis/rest/services/IOW/Map/MapServer/export?</href>
+		<viewRefreshMode>onStop</viewRefreshMode>
+		<viewRefreshTime>2</viewRefreshTime>
+		<viewFormat>f=kmz&amp;bboxSR=4326&amp;imageSR=4326&amp;format=png24&amp;transparent=true&amp;bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;size=[horizPixels],[vertPixels]&amp;</viewFormat>
+	</Link>
+</NetworkLink>
+</kml>
