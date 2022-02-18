@@ -34,7 +34,7 @@
 </LatLonBox>
 	</Region>
 	<Link>
-		<href>https://50cr008.sims.cranfield.ac.uk:6443/arcgis/rest/services/IOW/Map/MapServer/export?</href>
+		<href>https://50cr008.cns.cranfield.ac.uk:6443/arcgis/services/IOW/Map/MapServer/KmlServer</href>
 		<viewRefreshMode>onStop</viewRefreshMode>
 		<viewRefreshTime>2</viewRefreshTime>
 		<viewFormat>f=kmz&amp;bboxSR=4326&amp;imageSR=4326&amp;format=png24&amp;transparent=true&amp;bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;size=[horizPixels],[vertPixels]&amp;</viewFormat>
